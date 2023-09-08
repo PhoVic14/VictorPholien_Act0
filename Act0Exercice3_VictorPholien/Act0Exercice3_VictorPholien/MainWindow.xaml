@@ -1,0 +1,15 @@
+﻿<Window x:Class="Act0Exercice3_VictorPholien.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Act0Exercice3_VictorPholien"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content = " 81" Click="Button_Click" Margin="320,197,440,197" Width="40" Height="40"></Button>
+        <Button Content = " 82" Click="Button_Click" Margin="360,197,400,197" Width="40" Height="40"></Button>
+        <Button Content = " 84" Click="Button_Click" Margin="440,197,320,197" Width="40" Height="40" RenderTransformOrigin="1.619,-0.3"></Button>
+        <Button Content = " 83" Click="Button_Click" Margin="400,197,360,197" Width="40" Height="40"></Button>
+    </Grid>
+</Window>
